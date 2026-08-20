@@ -1,4 +1,21 @@
-# Blockchain Supply-Chain Finance — Independent Security Audit Report
+<div align="center">
+
+# Blockchain Supply-Chain Finance
+
+## Independent Security Audit Report
+
+**Target** · Solana / Anchor 0.31.1 · Trade Finance & Supply Chain Contracts
+
+![Solana](https://img.shields.io/badge/Solana-purple?logo=solana&logoColor=white)
+![Anchor](https://img.shields.io/badge/Anchor-0.31.1-512BD4?logo=solana&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Fixed%20%26%20Re--tested-2ea44f)
+![Severity](https://img.shields.io/badge/Finding-1%20Critical%20%2B%206%20High-dc3545)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/sudorm-rf0/supply-chain-finance-audit-report)
+
+</div>
+
+---
 
 > Independent Security Audit Report
 > Target: Blockchain Supply-Chain Finance (Solana / Anchor 0.31.1)
@@ -57,6 +74,7 @@ An independent security audit was performed on the Solana / Anchor smart contrac
 
 ---
 
+## 4. Severity Model
 ## 4. Severity Model
 
 | Level | Definition |
