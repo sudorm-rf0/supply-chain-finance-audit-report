@@ -102,7 +102,7 @@ An independent security audit was performed on the Solana / Anchor smart contrac
 | N-01~N-06 | NAV basis / timelock param / multisig / seed collision / DEPLOYER / first-loss | Medium/Low | ✅ Fixed |
 | L-01~L-13 | Units / events / idempotency / pause guard / terminal state | Low | ✅ Fixed |
 
-> An earlier专项 audit (`CONTRACT-AUDIT.md`, 2026-08-06) identified 4 additional High fund/ledger errors (H1 fee shortfall, H2 stuck advance, H3 unreleased collateral, H4 phantom assets) — all fixed and guarded by 49→66 integration tests.
+> An earlier targeted audit (`CONTRACT-AUDIT.md`, 2026-08-06) identified 4 additional High fund/ledger errors (H1 fee shortfall, H2 stuck advance, H3 unreleased collateral, H4 phantom assets) — all fixed and guarded by 49→66 integration tests.
 
 ---
 
@@ -118,7 +118,7 @@ An independent security audit was performed on the Solana / Anchor smart contrac
 
 | Date | Milestone | Result |
 |------|-----------|--------|
-| 2026-08-06 | Internal专项 audit (CONTRACT-AUDIT) | Fixed H1–H4 fund/ledger errors |
+| 2026-08-06 | Internal targeted audit (CONTRACT-AUDIT) | Fixed H1–H4 fund/ledger errors |
 | 2026-08-07 | Third-party DFR round 1 (SC-2026-0143) | Negative opinion (1C+4H); under-rating flagged |
 | 2026-08-07 | DFR 4-round re-test (0143→0144→0145→0146) | All C/H fixed + re-tested |
 | 2026-08-08 | Independent re-test (SECURITY-AUDIT-REPORT) | Fixed C-1/H-2/H-3 etc.; Anchor 66/66 pass |
@@ -147,7 +147,7 @@ Decisions required before mainnet ramp-up:
 ## 10. References
 
 - `AUDIT-REPORT.md` — internal security assessment (B+, noted as outdated)
-- `CONTRACT-AUDIT.md` — 2026-08-06 trade-finance专项 audit
+- `CONTRACT-AUDIT.md` — 2026-08-06 trade-finance targeted audit
 - `AUDIT-KNOWN-RISKS.md` — DFR remediation tracking (SC-2026-0143 → 0146)
 - `AUDIT-REMEDIATION.md` — 2026-08-08 independent re-test remediation
 - `AUDIT-DELIVERY.md` — audit status & package notes
@@ -156,4 +156,4 @@ Decisions required before mainnet ramp-up:
 
 *This audit report is based on the code version provided during the audit period. Any core-logic change should trigger a re-audit.*
 
-**中文版 (Chinese):** see [`zh/`](zh/).
+**Chinese version:** see [`zh/`](zh/).
